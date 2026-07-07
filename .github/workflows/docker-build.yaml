@@ -3,8 +3,6 @@ name: Build Docker Image
 on:
   push:
     branches: ["main"]
-  pull_request:
-    branches: ["main"]
 
 jobs:
   build:
@@ -19,5 +17,5 @@ jobs:
         with:
           context: .
           file: ./Dockerfile
-          push: false # Set to true later if you want to push to a registry (like Docker Hub or GHCR)
+          push: false
           tags: my-nginx
