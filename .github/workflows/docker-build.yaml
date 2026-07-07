@@ -20,4 +20,4 @@ jobs:
           push: true
           tags: |
             my-nginx
-            ghcr.io/SafariKnight/my-nginx:latest
+            ghcr.io/safariknight/my-nginx:latest
