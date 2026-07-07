@@ -30,5 +30,4 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            my-nginx
             ghcr.io/safariknight/my-nginx:latest
