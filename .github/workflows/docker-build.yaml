@@ -17,5 +17,7 @@ jobs:
         with:
           context: .
           file: ./Dockerfile
-          push: false
-          tags: my-nginx
+          push: true
+          tags: |
+            my-nginx
+            ghcr.io/SafariKnight/my-nginx:latest
